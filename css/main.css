@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700,1500');
+body {
+    background-color: rgba(27, 13, 13, 0.637);
+}
+
+/*------------------------Navbar*/
+
+.navbar {
+    position: relative;
+    border-radius: 0px;
+    background-color: #181716;
+    margin-bottom: 0px;
+}
+
+.text {
+    text-decoration: none;
+    text-align: center;
+    color: #fafafa;
+}
+
+.text a {
+    font-family: "Exo", sans-serif;
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #fafafa;
+    font-weight: 500;
+}
+
+.text a:hover {
+    color: #e68210;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*------------------------Navbar*/
+
+/*------------------------Jumbotron/lead*/
+
+.lead {
+    font-family: "Exo", sans-serif;
+    font-weight: 1500;
+    color: black;
+}
+
+/*------------------------Jumbotron/lead*/
+
+.image1 {
+    position: relative;
+    margin-top: 20px;
+    background-image: url('../images/aot400x400.jpg');
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background: cover;
+}
