@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700,1500');
 body {
-    background-color: rgba(27, 13, 13, 0.637);
+    background-color: black;
 }
 
 /*------------------------Navbar*/
@@ -25,6 +25,7 @@ body {
     text-align: center;
     color: #fafafa;
     font-weight: 500;
+    font-size: 19px;
 }
 
 .text a:hover {
@@ -45,13 +46,45 @@ body {
     color: black;
 }
 
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    background-color: darkgrey;
+}
+
 /*------------------------Jumbotron/lead*/
 
 .image1 {
     position: relative;
-    margin-top: 20px;
-    background-image: url('../images/aot400x400.jpg');
-    min-height: 600px;
+    margin-top: -30px;
+    background-image: url('../images/augustoaktree.jpg');
+    min-height: 400px;
     background-repeat: no-repeat;
     background: cover;
+    margin-bottom: 0;
+}
+
+.image2 {
+    position: relative;
+    margin-top: -30px;
+    background-image: url('../images/arnoldalone.jpg');
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background: cover;
+    margin-bottom: 0;
+}
+
+.image3 {
+    position: relative;
+    margin-top: -30px;
+    background-image: url('../images/aotfunky.jpg');
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background: cover;
+    margin-bottom: 0;
+}
+
+.footer-nav {
+    background-color: #e68210;
 }
