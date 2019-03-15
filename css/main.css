@@ -3,6 +3,14 @@ body {
     background-color: black;
 }
 
+.footer-bg-color {
+    background-color: rgb(231, 40, 40);
+}
+
+.section-bg-color {
+    background-color: black;
+}
+
 /*------------------------Navbar*/
 
 .navbar {
@@ -40,17 +48,21 @@ body {
 
 /*------------------------Jumbotron/lead*/
 
+.h1-jumbotron {
+    color: #fafafa;
+}
+
 .lead {
     font-family: "Exo", sans-serif;
     font-weight: 1500;
-    color: black;
+    color: #fafafa;
 }
 
 .jumbotron {
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 30px;
-    background-color: darkgrey;
+    background-color: rgb(231, 40, 40);
 }
 
 /*------------------------Jumbotron/lead*/
@@ -58,7 +70,7 @@ body {
 .image1 {
     position: relative;
     margin-top: -30px;
-    background-image: url('../images/augustoaktree.jpg');
+    background-image: url('../images/aotlogo.jpg');
     min-height: 400px;
     background-repeat: no-repeat;
     background: cover;
@@ -68,7 +80,7 @@ body {
 .image2 {
     position: relative;
     margin-top: -30px;
-    background-image: url('../images/arnoldalone.jpg');
+    background-image: url('../images/arnold-alone.jpg');
     min-height: 400px;
     background-repeat: no-repeat;
     background: cover;
@@ -78,7 +90,7 @@ body {
 .image3 {
     position: relative;
     margin-top: -30px;
-    background-image: url('../images/aotfunky.jpg');
+    background-image: url('../images/aot-funky.jpg');
     min-height: 400px;
     background-repeat: no-repeat;
     background: cover;
@@ -87,4 +99,87 @@ body {
 
 .footer-nav {
     background-color: #e68210;
+}
+
+.fa-instagram {
+    margin-right: 10px;
+    margin-bottom: 30px;
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #080808;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.fa-instagram:hover {
+    background: #e68210;
+}
+
+.fa-facebook {
+    margin-right: 10px;
+    margin-bottom: 30px;
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #070707;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.fa-facebook:hover {
+    background: #e68210;
+}
+
+.fa-youtube {
+    margin-bottom: 30px;
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #0a0a0a;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.fa-youtube:hover {
+    background: #e68210;
+}
+
+.social-links {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: "Exo", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.footer-aot  {
+    margin-top: 30px;
+    color: #fafafa;
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    font-weight: 300;
+    text-decoration: none;
 }
