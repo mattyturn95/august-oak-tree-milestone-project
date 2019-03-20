@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700,1500|Sniglet:100,200,300,400,500,600,700|Questrial:100,200,300,400,500,600,700,800');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700,1500|Sniglet:100,200,300,400,500,600,700|Questrial:100,200,300,400,500,600,700,800|Monoton:100,200,300,400,500,600');
 body {
     background-color: #161616;
 }
@@ -26,9 +25,11 @@ body {
     color: #ec8b0b;
 }
 
-
-
-
+.header-name {
+    font-size: 50px;
+    font-family: "Monoton", sans-serif;
+    font-weight: 500;
+}
 
 .uppercase a {
     padding: 10px;
@@ -58,7 +59,7 @@ body {
 }
 
 .box .uppercase {
-    color: #fafafa;
+    color: #e68210;
 }
 
 .image1 {
@@ -66,7 +67,6 @@ body {
     min-height: 400px;
     background-repeat: no-repeat;
     margin-bottom: 30px;
-
 }
 
 .about-image {
@@ -83,11 +83,10 @@ body {
 
 .social-links a {
     color: #fafafa;
-    font-size: 30px;
+    font-size: 50px;
     margin: 20px;
     text-decoration: none;
 }
-
 
 .fa-instagram:hover {
     color: #da545b;
