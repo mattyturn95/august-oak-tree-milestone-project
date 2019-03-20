@@ -1,185 +1,124 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700,1500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700,1500|Sniglet:100,200,300,400,500,600,700|Questrial:100,200,300,400,500,600,700,800');
+
 body {
-    background-color: black;
+    background-color: #161616;
+}
+
+.navbar-style {
+    height: 50px;
+}
+
+.bg-color-navbar {
+    background-color: #414141;
+}
+
+.bg-band-container {
+    background-color: #161616;
 }
 
 .footer-bg-color {
-    background-color: rgb(231, 40, 40);
-}
-
-.section-bg-color {
-    background-color: black;
-}
-
-/*------------------------Navbar*/
-
-.navbar {
-    position: relative;
-    border-radius: 0px;
-    background-color: #181716;
-    margin-bottom: 0px;
-}
-
-.text {
-    text-decoration: none;
-    text-align: center;
-    color: #fafafa;
-}
-
-.text a {
-    font-family: "Exo", sans-serif;
-    margin-top: 20px;
-    text-decoration: none;
-    text-align: center;
-    color: #fafafa;
-    font-weight: 500;
-    font-size: 19px;
-}
-
-.text a:hover {
-    color: #e68210;
+    background-color: #414141;
 }
 
 .uppercase {
     text-transform: uppercase;
+    text-align: center;
+    color: #ec8b0b;
 }
 
-/*------------------------Navbar*/
 
-/*------------------------Jumbotron/lead*/
 
-.h1-jumbotron {
-    color: #fafafa;
-}
 
-.lead {
+
+.uppercase a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
     font-family: "Exo", sans-serif;
-    font-weight: 1500;
+    font-weight: 500;
     color: #fafafa;
 }
 
-.jumbotron {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
-    background-color: rgb(231, 40, 40);
+.uppercase a:hover {
+    color: #e68210;
 }
 
-/*------------------------Jumbotron/lead*/
+.band-container {
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    min-height: 250px;
+}
+
+.box {
+    background-color: #161616;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+}
+
+.box .uppercase {
+    color: #fafafa;
+}
 
 .image1 {
-    position: relative;
-    margin-top: -30px;
-    background-image: url('../images/aotlogo.jpg');
+    background-image: url('../images/image1.jpg');
     min-height: 400px;
     background-repeat: no-repeat;
-    background: cover;
-    margin-bottom: 0;
+    margin-bottom: 30px;
+
 }
 
-.image2 {
-    position: relative;
-    margin-top: -30px;
-    background-image: url('../images/arnold-alone.jpg');
+.about-image {
+    background-image: url('../images/aboutimage.jpg');
     min-height: 400px;
     background-repeat: no-repeat;
-    background: cover;
-    margin-bottom: 0;
-}
-
-.image3 {
-    position: relative;
-    margin-top: -30px;
-    background-image: url('../images/aot-funky.jpg');
-    min-height: 400px;
-    background-repeat: no-repeat;
-    background: cover;
-    margin-bottom: 0;
-}
-
-.footer-nav {
-    background-color: #e68210;
-}
-
-.fa-instagram {
-    margin-right: 10px;
     margin-bottom: 30px;
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #080808;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.fa-instagram:hover {
-    background: #e68210;
-}
-
-.fa-facebook {
-    margin-right: 10px;
-    margin-bottom: 30px;
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #070707;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.fa-facebook:hover {
-    background: #e68210;
-}
-
-.fa-youtube {
-    margin-bottom: 30px;
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #0a0a0a;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.fa-youtube:hover {
-    background: #e68210;
+    border-radius: 30px;
 }
 
 .social-links {
-    margin-top: 30px;
-    margin-bottom: 10px;
-    font-family: "Exo", sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    color: #fafafa;
+    text-align: center;
 }
 
-.footer-aot  {
-    margin-top: 30px;
+.social-links a {
     color: #fafafa;
-    font-family: "Exo", sans-serif;
-    text-align: center;
-    font-weight: 300;
+    font-size: 30px;
+    margin: 20px;
     text-decoration: none;
+}
+
+
+.fa-instagram:hover {
+    color: #da545b;
+}
+
+.fa-facebook:hover {
+    color: rgb(67, 67, 150);
+}
+
+.fa-youtube:hover {
+    color: red;
+}
+
+.fa-soundcloud:hover {
+    color: #e68210;
+}
+
+.about-them {
+    color: #fafafa;
+    text-align: center;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+    font-family: "Questrial", sans-serif;
+    font-weight: 300;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 0;
+}
+
+.iframe-margin {
+    margin-bottom: 30px;
 }
