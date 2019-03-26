@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700,1500|Sniglet:100,200,300,400,500,600,700|Questrial:100,200,300,400,500,600,700,800|Monoton:100,200,300,400,500,600');
+
+
+/*------------------------Colors/text alignment*/
+
 body {
     background-color: #161616;
 }
-
-
 
 .navbar-style {
     height: 50px;
@@ -27,16 +29,31 @@ body {
     text-align: center;       
 }
 
+.h3-style {
+    color: #e68210;
+}
+
+.box  {
+    color: #e68210;
+    font-size: 40px;
+}
+
+.color-text {
+    color: #e68210;
+}
+
+/*------------------------Colors/text alignment*/
+
+
+
+/*----------------------------------Text----*/
+
 
 .header-name {
     font-size: 70px;
     font-family: "Monoton", sans-serif;
     font-weight: 500;
     color: darkorange;
-}
-
-.h3-style {
-    color: #e68210;
 }
 
 .uppercase a {
@@ -67,10 +84,7 @@ body {
     font-weight: 400;
 }
 
-.box  {
-    color: #e68210;
-    font-size: 40px;
-}
+
 
 .image1 {
     background-image: url('../images/image1.jpg');
@@ -87,6 +101,7 @@ body {
     border-radius: 30px;
 }
 
+/*---------------------------------- Social Links */
 .social-links {
     text-align: center;
 }
@@ -118,6 +133,9 @@ body {
     transition: 0.5s ease-in-out;
 }
 
+/*---------------------------------- Social Links */
+
+
 .about-them {
     color: #fafafa;
     text-align: center;
@@ -145,6 +163,7 @@ footer {
 .music-text {
     color: #e68210;
 }
+/*---------------------------------- Gallery */
 
 img {
     width: 100px;
@@ -176,6 +195,8 @@ table {
     padding: 30px;
 }
 
+/*---------------------------------- Gallery */
+
 @media (max-width: 768px) {
     
         .navbar-style {
@@ -184,7 +205,5 @@ table {
     
 }
 
-.color-text {
-    color: #e68210;
-}
+
 
