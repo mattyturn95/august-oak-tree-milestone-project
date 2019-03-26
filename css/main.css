@@ -151,11 +151,6 @@ body {
     font-size: 40px;
 }
 
-footer {
-    margin-top: 20px;
-    padding: 0;
-}
-
 .iframe-margin {
     margin-bottom: 30px;
 }
@@ -163,6 +158,13 @@ footer {
 .music-text {
     color: #e68210;
 }
+
+footer {
+    margin-top: 20px;
+    padding: 0;
+}
+
+
 /*---------------------------------- Gallery */
 
 img {
