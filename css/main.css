@@ -22,8 +22,9 @@ body {
 }
 
 .uppercase {
+    font-family: "Exo", sans-serif;
     text-transform: uppercase;
-    text-align: center;   
+    text-align: center;       
 }
 
 
@@ -183,4 +184,7 @@ table {
     
 }
 
+.color-text {
+    color: #e68210;
+}
 
