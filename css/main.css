@@ -8,7 +8,7 @@ body {
 }
 
 .navbar-style {
-    height: 50px;
+    height: 50px;    
 }
 
 .bg-color-navbar {
@@ -57,7 +57,7 @@ body {
 }
 
 .uppercase a {
-    padding: 10px;
+    margin-top: 30px;
     text-decoration: none;
     font-size: 25px;
     font-family: "Exo", sans-serif;
@@ -137,12 +137,12 @@ body {
 
 
 .about-them {
-    color: #fafafa;
+    color: #cfcccc;
     text-align: center;
     word-spacing: 4px;
     letter-spacing: 3px;
     font-family: "Sans-serif", sans-serif;
-    font-weight: 100;
+    font-weight: '';
     font-size: 18px;
 }
 
