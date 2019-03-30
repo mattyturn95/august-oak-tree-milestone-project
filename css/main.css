@@ -42,6 +42,15 @@ body {
     color: #e68210;
 }
 
+.album-text {        
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #e68210;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
 /*------------------------Colors/text alignment*/
 
 
@@ -68,6 +77,14 @@ body {
 .uppercase a:hover {
     color: #e68210;
     transition: 0.5s ease-in-out;
+}
+
+.album a {
+    text-decoration: none;
+}
+
+.album a:hover {
+    color: #fafafa;
 }
 
 .band-container {
