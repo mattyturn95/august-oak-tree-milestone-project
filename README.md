@@ -1,0 +1,89 @@
+# AUGUST OAK TREE - BAND WEBSITE
+
+Milestone Project One: User-Centric Frontend Development - Code Institute
+
+A website that takes you deeper into the lives and music of the August oak tree band.
+What I am trying to achieve for the band is to help them boost there public profiles on multiple platforms such as on the Web, Soundcloud,
+Youtube & Facebook. Creating a website that allows users to get a feel for there music and understand what drives them to create the music 
+that they do. 
+
+I want users to feel at ease when looking at the layout of the website and that is why I opted to go for the minimalistic approach with
+colors that are easy on the eye and with very few options to get lost within the site.
+
+Here is a link to my Live Website deployed on Github.pages <br>
+[Click here](https://mattyturn95.github.io/august-oak-tree-milestone-project/index.html)
+
+# UX
+
+This website if for the August Oak Tree Band,
+
+Although the band has several social media accounts available to the public I wanted to create a sole hub for users to gain access and
+get in touch with the band members via one main portal (the website).
+
+Whilst preparing my thoughts for the website I believed that it would be best to divide the website into 4 pages<br>
+ (ABOUT -index.html, MUSIC-music.html, GALLERY-gallery.html & CONTACT-contact.html) 
+
+ I believed that my design would become too complex if i were too have everything crammed into one page with 4 sub-sections
+ <br>
+ * As a music enthusiast, I would like to see what the band has to offer in terms of music and videos.
+ * As a user of the Website, I would like to be able to have a look at social media accounts such as SoundCloud, Youtube & Facebook
+ * As a Possible manager/talent rep i would like to be able to get in touch with the band and create a connection via the contact form
+ * As a Frequent web user looking to come accross new music within this Genre I want to see this site come up in the top Google Pages
+
+ I performed Mockups Using only pen and paper to get a rough idea on how the layout should be coded. <br>
+ here is a link to my Mockups <br>
+ [Click here](https://github.com/mattyturn95/august-oak-tree-milestone-project/tree/master/mockups)
+
+ # FEATURES
+
+ ### EXISTING FEATURES ###
+
+ This website has the following Features <br>
+ * Photo Gallery that allows users to scroll through enlarged thumbnails upon clicking.
+ * Media (plays songs upon clicking the play button - altering volume and also an option to download the songs)
+ * Video - to see what the band produces in terms of video and music collaberated together
+ * contact form where one can get in touch with the band via the contact.html page
+
+ ### FEATURES LEFT TO IMPLEMENT ###
+
+ * possible page that could give an in depth overview of upcoming performances
+ * Live updates 
+ * Merchandise for sale such as t-shirts and hats
+
+ # TECHNOLOGIES USED
+
+ * HTML
+   * Used to create semantic layout of the website
+
+ * CSS
+   * Used to style the website with class names
+
+ * JQUERY
+   * Used for DOM Manipulation
+     * [Click Here](https://jquery.com/)
+
+ * BOOTSTRAP
+   * Used to help provide an array of pre-set classes to help organise the layout of the website such as the grid-system
+     * [Click Here](https://getbootstrap.com/)
+
+ * FANCYBOX
+   * used to create a responsive gallery used within the gallery.html page and for photos rendered on mobile devices
+     * [Click Here](http://fancyapps.com/fancybox/3/)
+
+
+  # TESTING
+
+  During the process of developing my site I came accross a few problems.
+
+ (1) one of the first problems that i came accross was when rendering the website on mobile view the navbar height was affected when transitioning
+  to mobile devices, I was able to fix this by adding a media query within my CSS file (main.css)
+  <br>
+  <br>
+ (2) When Developing my Music.html page i first started off by embedding songs directly from Soundcloud and into my site
+ this created a negative user experience as it was not original and did not fit into the layout of my design (I tested the site through various devices
+ such as the iphone 6, Sony Xperia and Samsung s8) and made use of devtools to help figure out where all of the problems lay.
+ <br>
+ <br>
+ (3) With regards to the Gallery.html page I struggled to create a positive user experience at first with regards to the layout of 
+  my gallery table and the table displayed on mobiles. I then came up with the idea of displaying the table format only on medium screens and large screens
+  and hiding the table on xs-devices and sm-devices using the code [xs-hidden & sm-hidden} and visa versa.
