@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no"  />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Contact page for August Oak Tree Band">
     <meta name="keywords" content="August Oak Tree, South African Music, Arnold Groenewald, Local Tallent">
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
         type="text/css" />
     <link rel="stylesheet" href="css/main.css" type="text/css">
+
 </head>
 
 <body>
@@ -81,12 +82,39 @@
                     <input class="text-area" type="phone" name="Phone" id="" placeholder="  Phone Number">
                     <br>
                     <br>
-                    <textarea class="text-area" name="text-area" id="message" cols="20" rows="10" placeholder="  Enter your message over here!"></textarea>
+                    <textarea class="text-area" name="text-area" id="message" cols="20" rows="10"
+                        placeholder="  Enter your message over here!"></textarea>
                     <br>
                     <br>
-                    <button type="submit">Submit</button>
+                    <button type="button" data-toggle="modal" data-target="#myModal">Submit</button>
                 </div>
             </div>
+        </div>
+    </div>
+    <!------ Contact Form Modal  ----->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">This is just an Example Contact form!</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Thank you for requesting a reply back from our Team,
+                        this contact form is just a temporary function at the moment.
+
+                        Regards, <br>
+                        <br>
+                        August Oak Tree.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -131,6 +159,8 @@
     </footer>
     <!------ FOOTER-SOCIAL LINKS ----->
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>

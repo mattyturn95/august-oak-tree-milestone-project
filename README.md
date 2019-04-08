@@ -87,3 +87,6 @@ Whilst preparing my thoughts for the website I believed that it would be best to
  (3) With regards to the Gallery.html page I struggled to create a positive user experience at first with regards to the layout of 
   my gallery table and the table displayed on mobiles. I then came up with the idea of displaying the table format only on medium screens and large screens
   and hiding the table on xs-devices and sm-devices using the code [xs-hidden & sm-hidden} and visa versa.
+  <br>
+  <br>
+  (4) Finally, when the Contact form was added I had been following other Code Institute students projects to see if I could gather ideas on how to make my project more informative to the users. It occured to me that i should make use of a Modal form on my contact page to show users that the submit button is purely just a button with no real function as yet. I then added a message with in the modal to show users that the button has no real function.
