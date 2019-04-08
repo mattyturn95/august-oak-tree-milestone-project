@@ -1,5 +1,7 @@
 # AUGUST OAK TREE - BAND WEBSITE
 
+(This Website was Developed on Visual Studio Code)
+
 Milestone Project One: User-Centric Frontend Development - Code Institute
 
 A website that takes you deeper into the lives and music of the August oak tree band.
@@ -90,3 +92,57 @@ Whilst preparing my thoughts for the website I believed that it would be best to
   <br>
   <br>
   (4) Finally, when the Contact form was added I had been following other Code Institute students projects to see if I could gather ideas on how to make my project more informative to the users. It occured to me that i should make use of a Modal form on my contact page to show users that the submit button is purely just a button with no real function as yet. I then added a message with in the modal to show users that the button has no real function.
+  <br>
+  <br>
+  (5) Upon the development of my Project i constantly tested the pages through various browsers such as Firefox, Google Chrome and Opera & experienced no problems whatsoever during the process of deployment and testing.
+  
+# DEPLOYMENT
+
+This site is hosted on Github Pages, deployed from the master branch. There are no differences between the development and deployed version.
+
+* To clone this repository to run locally, you can do the following:
+
+* Create a new repository on Github
+
+* Clone my repository with the following commands on your IDE (machine):
+
+    ```
+    git clone https://mattyturn95.github.io/august-oak-tree-milestone-project.git
+    git remote rename origin upstream
+    git remote add origin *URL TO NEW GITHUB REPO*
+    git push origin master
+    ```
+ * Deploy to Github by going to settings and changing the Source from none to Master Branch: reload the page and you should see a link pop up within the settings which will take you to your deployed website
+ 
+ # CREDITS
+ 
+ ### Content ###
+ 
+ * the band information was copied from August Oak Trees Facebook Page
+    * [Click Here](https://www.facebook.com/pg/augustoaktree/about/?ref=page_internal) 
+ * The Modal deployment was gathered from W3 Schools
+    * [Click Here](https://www.w3schools.com/bootstrap/bootstrap_modal.asp)
+ * Social Links Images were gathered from Font Awesome 
+   * [Click Here](https://fontawesome.com/icons)
+   
+   
+ ### Media ###
+ 
+ * All Images were Gathered from The August Oak Tree Facebook Page and have written consent from the band members upon request
+    * [Click Here](https://www.facebook.com/pg/augustoaktree/photos/?ref=page_internal)
+ * All Songs were gathered and downloaded from The bands Soundcloud page
+    * [Click Here](https://soundcloud.com/augustoaktree)
+ * The Media code was gathered from W3 schools to play the songs 
+    * [Click Here](https://www.w3schools.com/html/html_media.asp)
+  * The Gallery table was gathered from a youtube video 
+     * [Click Here](https://www.youtube.com/watch?v=cPltsWlCdu8&t=926s)
+     
+  ### Acknowledgments ###
+  
+  * I Received inspiration from browisng through various music/band websites in order to try and implement my own original ideas
+  * I would also like to say thank you to all of the amazing feedback that I received from the Slack-forum when coming across problems
+ 
+ 
+
+
+ 
